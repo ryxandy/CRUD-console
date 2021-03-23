@@ -9,14 +9,14 @@
 
 
 #### Technologies:
-###### Build entirely in Java core version 8
+######Build entirely in Java core version 8
 
-## Welcome Console Screen:
+## Menu with all the funcionalities and a welcome screen:
 ![console pic](https://github.com/ryxandy/CRUD-console/blob/main/log.PNG)
 
 
 
 # Conclusions
-### It was a challenge to me as a junior web dev where i tried my best to use some basic concepts, im really proud about what i achieved in this project.
+###It was a nice project where i could use some basic Java concepts and do something without the use of framworks.
 
 
