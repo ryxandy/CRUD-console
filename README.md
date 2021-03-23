@@ -11,7 +11,7 @@
 #### Technologies:
 #####Build entirely in Java core version 8
 
-## Menu with all the funcionalities and a welcome screen:
+## Menu with all the functionalities and a welcome screen:
 ![console pic](https://github.com/ryxandy/CRUD-console/blob/main/log.PNG)
 
 
