@@ -17,6 +17,6 @@
 
 
 # Conclusions
-###It was a nice project where i could use some basic Java concepts and do something without the use of framworks.
+#### It was a nice project where i could use some basic Java concepts and do something without the use of framworks.
 
 
