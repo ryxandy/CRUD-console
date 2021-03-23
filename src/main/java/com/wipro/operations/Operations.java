@@ -105,23 +105,23 @@ public class Operations {
 				Product productAdd = new Product();
 				
 				//Set the attributes of the new Product
-				System.out.printf("Whats is the product name?");
+				System.out.printf("What's is the product name?");
 				name = read.nextLine();
 				productAdd.setName(name);
 				
-				System.out.printf("Whats the description? ");
+				System.out.printf("What's the description? ");
 				description = read.nextLine();
 				productAdd.setDescription(description);
 				
-				System.out.printf("Whats the price? ");
+				System.out.printf("What's the price? ");
 				price = read.nextDouble();
 				productAdd.setPrice(price);
 				
-				System.out.printf("Whats the quantity ");
+				System.out.printf("What's the quantity? ");
 				quantity = read.nextInt();
 				productAdd.setQuantity(quantity);
 				
-				System.out.printf("Whats the category? ");
+				System.out.printf("What's the category? ");
 				category = read.next();
 				productAdd.setCategory(category);
 				
@@ -134,6 +134,7 @@ public class Operations {
 			}
 		}
 		
+	//Method to find all data
 		public void findAll() {
 			if (products.size() != 0) {
 				for (int i = 0; i < products.size(); i++) {
@@ -144,8 +145,9 @@ public class Operations {
 			}
 		}
 		
+		
+	//Find any product by name
 		public void findByName() {
-			
 			if (products.size() != 0) {
 				String name;
 				System.out.println("Whats the name of the product? ");
