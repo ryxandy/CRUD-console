@@ -9,7 +9,7 @@
 
 
 #### Technologies:
-###### Build entirely in Java core
+###### Build entirely in Java core version 8
 
 ## Welcome Console Screen:
 ![console pic](https://github.com/ryxandy/CRUD-console/blob/main/log.PNG)
