@@ -7,19 +7,12 @@ public class Product {
 	private String description;
 	private int quantity;
 	private String category;
+	private String subCollection;
+	private String image;
 
 	
 	public Product() {
 		super();
-	}
-	
-	public Product(String name, Double price, String description, int quantity, String category) {
-		super();
-		this.name = name;
-		this.price = price;
-		this.description = description;
-		this.quantity = quantity;
-		this.category = category;
 	}
 
 	public String getName() {
@@ -61,11 +54,35 @@ public class Product {
 	public void setCategory(String category) {
 		this.category = category;
 	}
-	
+
+
+
+	public String getSubCollection() {
+		return subCollection;
+	}
+
+
+
+	public void setSubCollection(String subCollection) {
+		this.subCollection = subCollection;
+	}
+
 	@Override
 	public String toString() {
 		return "Product [name=" + name + ", price=" + price + ", description=" + description + ", quantity=" + quantity
-				+ ", category=" + category + "]";
+				+ ", category=" + category + ", subCollection=" + subCollection + "]";
 	}
 
+
+
+	public String getImage() {
+		return image;
+	}
+
+
+
+	public void setImage(String image) {
+		this.image = image;
+	}
+	
 }
